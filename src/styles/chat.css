@@ -1,0 +1,72 @@
+.main-chat {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  z-index: 2;
+}
+
+.main-chat p {
+  width: 50%;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  background: rgba(31, 47, 66, 0.5);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  padding: 50px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.discord {
+  margin-top: 50px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discord-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.7));
+}
+
+.discord-container img {
+  width: 100%;
+}
+
+.btn-disc {
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  right: 25%;
+  width: 50%;
+  background: rgba(113,138,215, 0.5);
+    backdrop-filter: blur(10px);
+  padding: 10px 0;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px black;
+  transition: 0.3s ease-in-out;
+  font-weight: 700;
+}
+
+.btn-disc:hover {
+  transform: scale(105%);
+  background-color: rgba(113,138,215, 0.3);
+}
+
+@media (max-width: 1050px) {
+  
+  .main-chat p {
+      width: 90%;
+      font-size: 19px;
+  }
+}

@@ -1,0 +1,123 @@
+.main-orientacion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.target-container-info-orientacion {
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: white;
+  padding-top: 50px;
+}
+
+.container-blue {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  background-color: #243156e5;
+  border-radius: 80px 0px 80px 0px;
+}
+
+.target-description-orientacion {
+  width: 100%;
+  font-size: 1.4rem;
+  color: #3356b6;
+}
+
+.info-container-orientacion {
+  width: 97%;
+  min-height: 500px;
+  margin: 20px 0;
+  padding: 50px;
+  background: rgba(255, 255, 255, 1);
+  /* backdrop-filter: blur(10px); */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 80px 0px 80px 0px;
+}
+
+.info-container-orientacion span {
+  font-size: 20px;
+  font-weight: 700;
+  color: #233d85;
+}
+
+.info-container-orientacion p {
+  text-align: left;
+  color: #3356b6;
+  margin: 0;
+}
+
+.center-container-orientacion {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300px;
+}
+
+#vladimir {
+  background-image: url(./../assets/logo_sin_fondo.png);
+  background-size: 170px;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  color: rgb(0, 116, 106);
+}
+
+.email-link {
+  text-decoration: none;
+}
+
+.description-container ul {
+  list-style-type: circle;
+  color: black;
+}
+
+.description-container li {
+  margin-top: 20px;
+}
+
+@media (max-width: 1199px) {
+  .container-blue {
+    width: 90%;
+    font-size: 1.4rem;
+    color: #3356b6;
+  }
+
+  .target-container-info-orientacion {
+    gap: 50px;
+  }
+
+  .target-description-orientacion {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .info-container-orientacion {
+    padding: 10px;
+  }
+}

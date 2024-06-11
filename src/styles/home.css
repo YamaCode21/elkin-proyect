@@ -1,0 +1,220 @@
+#home {
+  width: 100%;
+  scroll-margin-top: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.target {
+  position: relative;
+  width: 63%;
+  min-width: 300px;
+  height: 450px;
+  background-color: rgb(52, 54, 88);
+  z-index: 2;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.text-center {
+  color: aliceblue;
+  line-height: 2.3;
+}
+
+.mgp {
+  margin-top: 40px;
+}
+
+.textint {
+  text-align: center;
+  margin-top: 120px;
+}
+
+#carouselExampleIndicators {
+  width: 80%;
+  box-shadow: 0px 0px 20px black;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+#integrantes {
+  scroll-margin-top: 110px;
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+}
+
+.sub-title {
+  width: 50%;
+  text-align: center;
+  line-height: 2.3;
+  color: black;
+}
+
+.target-container-info {
+  width: 70%;
+  justify-content: space-evenly;
+  background-color: #243156e5;
+  border-radius: 80px 0px 80px 0px;
+}
+
+.target-description {
+  width: 60%;
+  color: #3356b6;
+}
+
+.info-container {
+  width: 97%;
+  min-height: 500px;
+  margin: 20px 0;
+  padding: 50px;
+  background: rgba(255, 255, 255, 1);
+  /* backdrop-filter: blur(10px); */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 80px 0px 80px 0px;
+}
+
+.info-container span {
+  font-size: 20px;
+  font-weight: 700;
+  color: #233d85;
+}
+
+.info-container p {
+  text-align: left;
+  color: #3356b6;
+  margin: 0;
+}
+
+.center-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300px;
+}
+
+#vladimir {
+  background-image: url(./../assets/Elkin.jpeg);
+  background-size: 170px;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  color: rgb(0, 116, 106);
+}
+
+.email-link {
+  text-decoration: none;
+}
+
+.description-container ul {
+  list-style-type: circle;
+  color: black;
+}
+
+.description-container li {
+  margin-top: 20px;
+}
+
+@media (max-width: 820px) {
+  .text-center {
+    font-size: 0.9rem;
+  }
+
+  .mgp {
+    margin-top: 0px;
+  }
+
+  .target {
+    position: relative;
+    width: 63%;
+    min-width: 350px;
+    height: 100%;
+    background-color: rgb(52, 54, 88);
+    z-index: 2;
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 40px;
+  }
+
+  .target-container-info {
+    width: 95%;
+  }
+
+  .info-container {
+    width: 95%;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  .info-head {
+    text-align: center;
+  }
+
+  .info-head p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .description-container {
+    margin: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .target-description {
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .sub-title {
+    width: 90%;
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  #integrantes {
+    margin: 30px 0;
+  }
+
+  .target-container-info {
+    margin: 0;
+  }
+
+}
