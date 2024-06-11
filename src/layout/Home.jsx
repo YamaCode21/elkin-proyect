@@ -91,15 +91,16 @@ const Home = () => {
       <section id="integrantes">
         <h2 className="title">Integrante</h2>
         <p className="sub-title">
-          Somos un grupo de docentes de la maestría de tecnología aplacadas a la
-          educación trabajamos en zonas muy diversas, de Medellín Antioquia y el
-          tambo cauca, pero con las metas bien establecidas de superación en lo
-          referente a lo laboral y personal por tal motivo estamos juntos viendo
-          este módulo de herramientas digitales para las organizaciones
-          educativas de la universidad de Santander En este sitio web
-          encontraras información en lo referente a la estructura digital de la
-          materia de educación física y deportes del profesor Vladimir Rojas en
-          la institución educativa concejo de Medellín Sean todos bienvenidos.
+          Te doy la bienvenida a mi página Recibe un saludo de Paz y amor Que el
+          Dios te bendiga hoy y siempre Aquí podrás encontrar material que te
+          servirá para crecer en el ámbito de la educación física recreación y
+          deporte Sin el movimiento no podemos sobrevivir, ahora bien para poder
+          llegar lejos debemos dar el primer paso hacia lo que queremos, si
+          caemos (10) diez veces debemos levantarnos (11) once veces, lo más
+          importante es seguir adelante buscando cumplir nuestras metas. Te
+          invito a explorar mi página y así aprender en el maravilloso mundo de
+          la educación física recreación y deporte. Te lo dice el profe Elkin
+          Bastidas
         </p>
         <div className="target-container-info d-flex justify-content-around align-items-center flex-column flex-xl-row">
           <div className="info-container">
@@ -109,7 +110,7 @@ const Home = () => {
               <p>Docente del área de educación física</p>
             </div>
             <div className="center-container d-flex justify-content-around align-items-center flex-column flex-xl-row">
-              <div className="image-container" id="vladimir"></div>
+              <div className="image-container" id="vladimir-home"></div>
               <div className="description-container">
                 <h3 className="target-description">
                   Me encuentro ubicado en el corregimiento de Buenavista, en el
